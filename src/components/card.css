@@ -1,0 +1,60 @@
+:root{
+    --card-bg: #0f2841;
+    --text-color: #6f89a6;
+    --eth: #00c4c6;
+}
+
+.card-container{
+    height: 80vh;
+    width: 23vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-bg);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card-img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: var(--text-color)
+}
+
+.price-container {
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.eth{
+    color: var(--eth);
+}
+
+.card-author{
+    display: flex;
+    padding: 10px;
+}
+
+.author-avatar{
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+p span{
+    color: white;
+}
